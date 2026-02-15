@@ -1,0 +1,19 @@
+<VBox spacing="10" alignment="CENTER"
+ xmlns:fx="http://javafx.com/fxml"
+ fx:controller="QuizController">
+
+    <TextField fx:id="studentIdField"
+               promptText="Student ID লিখুন"/>
+
+    <Button text="Start Quiz" onAction="#startQuiz"/>
+
+    <Label fx:id="questionLabel"/>
+
+    <RadioButton fx:id="opt1"/>
+    <RadioButton fx:id="opt2"/>
+    <RadioButton fx:id="opt3"/>
+    <RadioButton fx:id="opt4"/>
+
+    <Button text="Next" onAction="#nextQuestion"/>
+
+</VBox>
